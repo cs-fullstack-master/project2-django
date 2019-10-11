@@ -3,7 +3,7 @@
 Create an a Wikipedia Light web application to support multiple Wiki Post Authors.
 
 ### Design Requirements:
-* You **MUST** produce a written design *prior* to starting to code your solution. This design doesn't have to be a book, but should at least note needed endpoints and basic sketches on how you plan to use CSS Grid for your various screens. ADD YOUR DESIGN DOCUMENTATION TO YOUR PROJECT (pictures, screenshots, or similar)
+* You **MUST** produce a design *prior* to starting to code your solution. This design doesn't have to be a book, but should at least note needed endpoints and basic sketches on how you plan to use CSS Grid for your various screens. ADD YOUR DESIGN DOCUMENTATION TO YOUR PROJECT (pictures, screenshots, or similar)
 
 ## Functional Requirements (Total of 20 points)
 
