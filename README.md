@@ -3,7 +3,7 @@
 Create an a Wikipedia Light web application to support multiple Wiki Post Authors.
 
 ### Design Requirements:
-* You **MUST** produce a design *prior* to starting to code your solution. This design doesn't have to be a book, but should at least note needed endpoints and basic sketches on how you plan to use CSS Grid for your various screens. ADD YOUR DESIGN DOCUMENTATION TO YOUR PROJECT (pictures, screenshots, or similar)
+* You **MUST** do design *prior* to starting to code your solution. This design doesn't have to be a book, but should at least note needed endpoints and basic sketches on how you plan to use CSS Grid for your various screens. ADD YOUR DESIGN DOCUMENTATION TO YOUR PROJECT (pictures, screenshots, or similar)
 
 ## Functional Requirements (Total of 20 points)
 
@@ -34,11 +34,13 @@ Use HTML, CSS, templating, and any CSS resources neccessary to make your site ae
 
 * The project should use CSS Grid for the main layout. Other elements may be mixed in as you see fit. 
 
-* The User should be able to do a keyword search that will return a list of Wiki entries where the entered keywords are found in the entry's title and/or text.
+* The User should be able to do a keyword search that will return a list of Wiki entries where the entered keywords are found in the entry's title and/or text. The search will filter the entries displayed on the main page. Include a visual queue to the User so that it is clear they are viewing *filtered results*.
 
-* All pages should provide a Navagation Bar that allows a user to go 'Home', 'Add a New Entry', or 'Your Entries'. 'Add a new Entry' and list 'Your Entries' should only be available if the User is signed in. The main 'index' page should list all current Wiki entries from all Authors along with their main image (if present)
+* All pages should provide a Navagation Bar that allows a user to go 'Home', 'Add a New Entry', or 'Your Entries', as well as 'Login/Logout/New User' depending on if the User is registered and signed in or not. 
 
-* All Users should be able to click the Title of an individual entry to see the full post. If the post has an image, it should display. Any 'Related Information' items for the post should be displayed in a sidebar at the right of the page. If a displayed entry is also owned by the current signed in User, you should offer them options to 'Edit and/or 'Delete' the entry.
+* 'Add a new Entry' and list 'Your Entries' should only be available if the User is signed in. The main 'index' page should list all current Wiki entries from all Authors along with their main image (if present)
+
+* All Users should be able to click the Title of an individual entry to see the full post. If the post has an image, it should display. Any 'Related Information' items for the post should be displayed in a sidebar at the right of the page. If a displayed entry is also owned by the current signed in User, you should offer them options to 'Edit and/or 'Delete' the entry. 'Related Items' can only be added and/or edited from the individual entry page and only if the current User is the Author of the displayed entry. 
 
 #### Model Details (5 pts):
 SUCCESSFUL CREATION OF REQUIRED MODELS MANDATORY FOR ANY POINTS FOR THIS SECTION
