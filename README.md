@@ -30,8 +30,6 @@ Use HTML, CSS, templating, and any CSS resources neccessary to make your site ae
 
 #### Base Requirements: 1 point each (5 pts total):
 
-* The layout should be similar to the example images provided.
-
 * The project should use CSS Grid for the main layout. Other elements may be mixed in as you see fit. 
 
 * The User should be able to do a keyword search that will return a list of Wiki entries where the entered keywords are found in the entry's title and/or text. The search will filter the entries displayed on the main page. Include a visual queue to the User so that it is clear they are viewing *filtered results*.
