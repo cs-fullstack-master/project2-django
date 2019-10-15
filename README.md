@@ -34,7 +34,7 @@ Use HTML, CSS, templating, and any CSS resources neccessary to make your site ae
 
 * The User should be able to do a keyword search that will return a list of Wiki entries where the entered keywords are found in the entry's title and/or text. The search will filter the entries displayed on the main page. Include a visual queue to the User so that it is clear they are viewing *filtered results*.
 
-* All pages should provide a Navagation Bar that allows a user to go 'Home', 'Add a New Entry', or 'Your Entries', as well as 'Login/Logout/New User' depending on if the User is registered and signed in or not. 
+* All pages should provide a Naviagation Bar that allows a user to go 'Home', 'Add a New Entry', or 'Your Entries', as well as 'Login/Logout/New User' depending on if the User is registered and signed in or not. 
 
 * 'Add a new Entry' and list 'Your Entries' should only be available if the User is signed in. The main 'index' page should list all current Wiki entries from all Authors along with their main image (if present)
 
@@ -50,7 +50,7 @@ SUCCESSFUL CREATION OF REQUIRED MODELS MANDATORY FOR ANY POINTS FOR THIS SECTION
 
 * Your application depends on the built-in Django Admin for some portion of your database maintenance (**3 pts**)
 
-* You application depends on the built-in Django Admin for all  of your database maintenance (**1 pts**)
+* Your application depends on the built-in Django Admin for all  of your database maintenance (**1 pts**)
 
 ### EXAMPLE SCREENS FOR INSPIRATION:
 
